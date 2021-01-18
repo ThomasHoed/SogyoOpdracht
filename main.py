@@ -1,2 +1,6 @@
-for i in range(5):
-    print("Hello World!")
+from Objects.playboard import Playboard
+
+if __name__ == "__main__":
+    playboard_size = 3
+    x = Playboard(playboard_size)
+    x.play()
